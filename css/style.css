@@ -1,0 +1,33 @@
+body {
+    font-size: 20px;
+  }
+  
+  /* 
+    2 * 15 - это размер, 
+    который box-sizing: border-box 
+    отнял у width и height
+  
+    ширина container 480  - (2 * 15)
+    или 3 раза по 160 - (2 * 15)  
+  */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    margin: auto;
+    padding: 15px;
+    background: burlywood;
+    box-sizing: border-box;
+    
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    min-height: 75px;
+    background-color: teal;
+    color: #fff;
+  }
+  
